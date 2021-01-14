@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ClientCertificate Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Struct/ClientCertificate" class="dashAnchor"></a>
+
+    <a title="ClientCertificate Structure Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SwiftyRequest Docs
+        </a>
+         (91% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SwiftyRequest Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      ClientCertificate Structure Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MultipartFormData.html">MultipartFormData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RestRequest.html">RestRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RestToken.html">RestToken</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BodyPart.html">BodyPart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CertificateError.html">CertificateError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CircuitParameters.html">CircuitParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ClientCertificate.html">ClientCertificate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Credentials.html">Credentials</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/RestError.html">RestError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/RestResponse.html">RestResponse</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>ClientCertificate</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ClientCertificate</span></code></pre>
+
+                </div>
+              </div>
+            <p>Represents a client certificate that should be provided as part of a RestRequest.
+The certificate and its corresponding private key will be read from PEM formatted data.
+If the private key is encrypted with a passphrase, the passphrase should also be supplied.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV11certificate6NIOSSL17NIOSSLCertificateCvp"></a>
+                    <a name="//apple_ref/swift/Property/certificate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV11certificate6NIOSSL17NIOSSLCertificateCvp">certificate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">certificate</span><span class="p">:</span> <span class="kt">NIOSSLCertificate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV10privateKey6NIOSSL013NIOSSLPrivateF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/privateKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV10privateKey6NIOSSL013NIOSSLPrivateF0Cvp">privateKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">privateKey</span><span class="p">:</span> <span class="kt">NIOSSLPrivateKey</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV11certificate10privateKeyAC6NIOSSL17NIOSSLCertificateC_AF013NIOSSLPrivateG0Ctcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(certificate:privateKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV11certificate10privateKeyAC6NIOSSL17NIOSSLCertificateC_AF013NIOSSLPrivateG0Ctcfc">init(certificate:<wbr>privateKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>ClientCertificate</code> from an existing <code>NIOSSLCertificate</code> and <code>NIOSSLPrivateKey</code>.
+Use this method if you need complete control over how the certificate and key data is read in.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">certificate</span><span class="p">:</span> <span class="kt">NIOSSLCertificate</span><span class="p">,</span> <span class="nv">privateKey</span><span class="p">:</span> <span class="kt">NIOSSLPrivateKey</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>certificate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The client certificate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>privateKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The private key for the certificate. If the data for the key is encrypted, then an appropriate passphrase callback must be configured.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV7pemFile10passphraseACSS_SSSgtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(pemFile:passphrase:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV7pemFile10passphraseACSS_SSSgtKcfc">init(pemFile:<wbr>passphrase:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>ClientCertificate</code> from a file in PEM format. The file should contain both the certificate
+and its private key.
+If the key is encrypted, then its passphrase should also be supplied.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    If the file is not found, or is not in the expected PEM format.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">pemFile</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">passphrase</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pemFile</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The fully-qualified filename of the PEM file containing the certificate and private key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>passphrase</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The passphrase for the private key, or nil if the key is not encrypted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV9pemString10passphraseACSS_SSSgtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(pemString:passphrase:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV9pemString10passphraseACSS_SSSgtKcfc">init(pemString:<wbr>passphrase:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>ClientCertificate</code> from a <code>String</code> in PEM format. The string should contain both the
+certificate and its private key.
+If the key is encrypted, then its passphrase should also be supplied.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    If the string is not in the expected PEM format.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">pemString</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">passphrase</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pemString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A string containing the certificate and private key in PEM format.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>passphrase</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The passphrase for the private key, or nil if the key is not encrypted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV7pemData10passphraseAC10Foundation0F0V_SSSgtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(pemData:passphrase:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV7pemData10passphraseAC10Foundation0F0V_SSSgtKcfc">init(pemData:<wbr>passphrase:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>ClientCertificate</code> from <code>Data</code> in PEM format. The data should contain both the certificate
+and its private key.
+If the key is encrypted, then its passphrase should also be supplied.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    If the data is not in the expected PEM format.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">pemData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">passphrase</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pemData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The data containing the certificate and private key in PEM format.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>passphrase</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The passphrase for the private key, or nil if the key is not encrypted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13SwiftyRequest17ClientCertificateV8pemBytes10passphraseACSays5UInt8VG_SSSgtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(pemBytes:passphrase:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13SwiftyRequest17ClientCertificateV8pemBytes10passphraseACSays5UInt8VG_SSSgtKcfc">init(pemBytes:<wbr>passphrase:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize a <code>ClientCertificate</code> from a <code>[UInt8]</code> containing PEM format data. The data should contain
+both the certificate and its private key.
+If the key is encrypted, then its passphrase should also be supplied.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    If the data is not in the expected PEM format.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">pemBytes</span><span class="p">:</span> <span class="p">[</span><span class="kt">UInt8</span><span class="p">],</span> <span class="nv">passphrase</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pemBytes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The data containing the certificate and private key in PEM format.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>passphrase</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The passphrase for the private key, or nil if the key is not encrypted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-01-14)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
