@@ -5,18 +5,15 @@
 </p>
 
 <p align="center">
-    <a href="https://kitura-next.github.io/SwiftyRequest/index.html">
-    <img src="https://img.shields.io/badge/apidoc-SwiftyRequest-1FBCE4.svg?style=flat" alt="APIDoc">
-    </a>
-    <a href="https://travis-ci.org/Kitura-Next/SwiftyRequest">
-    <img src="https://travis-ci.org/Kitura-Next/SwiftyRequest.svg?branch=master" alt="Build Status - Master">
-    </a>
-    <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" alt="macOS">
-    <img src="https://img.shields.io/badge/os-linux-green.svg?style=flat" alt="Linux">
+    <a href="https://www.kituranext.org/learn/">
+    <img src="https://img.shields.io/badge/docs-kitura-1FBCE4.svg" alt="APIDoc"></a>
+    <a href="https://github.com/Kitura-Next/SwiftyRequest/actions?query=workflow%3ASwift+MacOS">
+    <img src="https://github.com/Kitura-Next/SwiftyRequest/workflows/Swift%20MacOS/badge.svg"></a>
+    <a href="https://github.com/Kitura-Next/SwiftyRequest/actions?query=workflow%3ASwift+Ubuntu">
+    <img src="https://github.com/Kitura-Next/SwiftyRequest/workflows/Swift%20Ubuntu/badge.svg"></a>
     <img src="https://img.shields.io/badge/license-Apache2-blue.svg?style=flat" alt="Apache 2">
     <a href="http://swift-at-ibm-slack.mybluemix.net/">
-    <img src="http://swift-at-ibm-slack.mybluemix.net/badge.svg" alt="Slack Status">
-    </a>
+    <img src="http://swift-at-ibm-slack.mybluemix.net/badge.svg" alt="Slack Status"></a>
 </p>
 
 # SwiftyRequest
@@ -45,8 +42,6 @@ The latest release of SwiftyRequest is built upon the Swift-NIO based [`async-ht
 ## Swift version
 
 The latest version of SwiftyRequest requires Swift 5 or later.
-
-Swift 4 support is available in the 2.x release of SwiftyRequest.
 
 ## Installation
 To leverage the `SwiftyRequest` package in your Swift application, you should specify a dependency for it in your `Package.swift` file:
