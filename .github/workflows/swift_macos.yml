@@ -28,4 +28,4 @@ jobs:
     - name: Build
       run: swift build
     - name: Test
-      run: swift test --enable-test-discovery
+      run: ./common/before_tests.sh && swift test --enable-test-discovery
